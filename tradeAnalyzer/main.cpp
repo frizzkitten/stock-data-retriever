@@ -55,6 +55,7 @@ protected:
     CURL * curl;
     std::string curlBuffer;
 };
+//credit to stack overflow for help on the CurlObj class
 
 int main() {
     
