@@ -70,6 +70,9 @@ int main() {
         try {
             std::cin >> numCompaniesString;
             numCompanies = std::stoi(numCompaniesString);
+            if (numCompanies < 0 ) {
+                std::cout << "That is not a valid number. Enter any number greater than 0: ";
+            }
         } catch (std::exception e) {
             std::cout << "That is not a valid number. Enter any number greater than 0: ";
         }
